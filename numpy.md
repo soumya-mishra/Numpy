@@ -102,3 +102,4 @@ cov, mean, std, var
 
 np.linalg.*
 np.linalg.svd()
+`
