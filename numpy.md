@@ -73,6 +73,10 @@ conversion:
 np.astype(int)
 
 np.squeeze - Remove an axis from a
+x = np.array([[[0], [1], [2]]])
+np.squeeze(x)
+array([0, 1, 2])
+
 np.swapaxes -  
 np.take,
 a = [4, 3, 5, 7, 6, 8]
