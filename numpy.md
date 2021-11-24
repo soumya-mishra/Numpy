@@ -42,6 +42,8 @@ a.T -  transpose
 
 reshape() - returns argument with modified shape
 resize() - modifies the array itself
+shape()
+ravel()
 
 np.vstack((a,b))
 np.hstack((a,b))
