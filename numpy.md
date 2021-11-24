@@ -52,6 +52,8 @@ np.column_stack
 np.row_stack
 
 np.hsplit(a,3)
+np.vsplit()
+np.array_split()
 
 a.view() - shallow copy
 a.copy()  -  deep copy
