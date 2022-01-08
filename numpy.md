@@ -123,3 +123,17 @@ random.choice([3, 5, 7, 9], size=(3, 5))  # generate 3,5 array from these number
 random.choice([3, 5, 7, 9], p=[0.1, 0.3, 0.6, 0.0], size=(100))  # Data distribution
 random.choice([3, 5, 7, 9], p=[0.1, 0.3, 0.6, 0.0], size=(3, 5))
 random.shuffle()
+
+INDEXING/SLICING/SUBSETTING
+-----------------------------
+arr[5] - Returns the element at index 5 arr[2,5] - Returns the 2D array element on index [2][5]
+arr[1]=4 - Assigns array element on index 1 the value 4
+arr[1,3]=10 - Assigns array element on index [1][3] the value 10
+arr[0:3] - Returns the elements at indices 0,1,2 (On a 2D array: returns rows 0,1,2)
+arr[0:3,4] - Returns the elements on rows 0,1,2 at column 4
+arr[:2] - Returns the elements at indices 0,1 (On a 2D array: returns rows 0,1)
+arr[:,1] - Returns the elements at index 1 on all rows
+arr<5 - Returns an array with boolean values
+(arr1<3) & (arr2>5) - Returns an array with boolean values
+~arr - Inverts a boolean array
+arr[arr<5] - Returns array elements smaller than 5
