@@ -112,3 +112,14 @@ cov, mean, std, var
 np.linalg.*
 np.linalg.svd()
 
+Random:
+-------------
+np.random.random(size=(2,3))
+random.rand(3, 5) : size of 3,5
+random.randint(100, size=(5))
+random.rand(5) # 5 random floats
+random.choice([3, 5, 7, 9])
+random.choice([3, 5, 7, 9], size=(3, 5))  # generate 3,5 array from these numbers
+random.choice([3, 5, 7, 9], p=[0.1, 0.3, 0.6, 0.0], size=(100))  # Data distribution
+random.choice([3, 5, 7, 9], p=[0.1, 0.3, 0.6, 0.0], size=(3, 5))
+random.shuffle()
